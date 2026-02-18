@@ -43,14 +43,21 @@ The API is designed with a **layered architecture** using **Spring Boot**, **Spr
 | **Partial Update: Stock Only**   | PATCH  | `/api/products/updateProductStock/{id}/{stockQuantity}` | Update only stock quantity of a product       |
 | **Delete Product**               | DELETE | `/api/products/deleteProduct/{id}`       | Deletes product by ID                           |
 
-**Example Product JSON**
-```json
-{
-  "id": 1001,
-  "name": "Wireless Bluetooth Headphones",
-  "description": "Premium noise-cancelling wireless headphones",
-  "price": 89.99,
-  "category": "Electronics",
-  "stockQuantity": 150
-}
+## Screenshots of CRUD Operations
 
+Below are screenshots demonstrating that all CRUD operations are working:
+
+### 1️⃣ Create Product (POST)
+<img width="1276" height="718" alt="Image" src="https://github.com/user-attachments/assets/99c7de7a-3786-457b-b9a1-2b11043a61b7" />
+
+### 2️⃣ Read Products (GET)
+![Read Products](Screenshots/2_Read_GET_Products.png)
+
+### 3️⃣ Update Product (PUT)
+![Update Product](Screenshots/3_Update_PUT_a_Product.png)
+
+### 4️⃣ Partial Update - Stock Only (PATCH)
+![Partial Update](Screenshots/Partial_Update_PATCH_Update_only_stock_quantity.png)
+
+### 5️⃣ Delete Product (DELETE)
+![Delete Product](Screenshots/4_Delete_DELETE_deleting_a_Product.png)
