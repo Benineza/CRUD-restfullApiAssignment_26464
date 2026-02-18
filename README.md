@@ -20,28 +20,6 @@ The API is designed with a **layered architecture** using **Spring Boot**, **Spr
 
 ---
 
-## Project Structure
-
-restfullApiAssignment/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── auca/ac/rw/restfullApiAssignment/
-│ │ │ ├── controller/ # Handles HTTP requests
-│ │ │ │ └── ProductController.java
-│ │ │ ├── service/ # Business logic
-│ │ │ │ └── ProductService.java
-│ │ │ ├── repository/ # Data access layer
-│ │ │ │ └── ProductRepository.java
-│ │ │ ├── modal/ # Entity/model layer
-│ │ │ │ └── Product.java
-│ │ │ └── RestfullApiAssignmentApplication.java
-│ │ └── resources/
-│ │ └── application.properties # DB & application configuration
-├── Screenshots/ # API test screenshots
-├── pom.xml
-
-
 ---
 
 ## Database Configuration
