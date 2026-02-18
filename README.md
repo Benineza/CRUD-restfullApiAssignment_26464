@@ -47,17 +47,17 @@ The API is designed with a **layered architecture** using **Spring Boot**, **Spr
 
 Below are screenshots demonstrating that all CRUD operations are working:
 
-### 1️⃣ Create Product (POST)
+### 1 Create Product (POST)
 <img width="1276" height="718" alt="Image" src="https://github.com/user-attachments/assets/99c7de7a-3786-457b-b9a1-2b11043a61b7" />
 
-### 2️⃣ Read Products (GET)
+### 2 Read Products (GET)
 <img width="1275" height="719" alt="Image" src="https://github.com/user-attachments/assets/38f5cd1a-57f5-4840-88ed-d1fde799b47e" />
 
-### 3️⃣ Update Product (PUT)
-<img width="1279" height="720" alt="Image" src="https://github.com/user-attachments/assets/d8d8ea85-0c40-4ff2-9d54-b2b5cd169486" />
+### 3 Update Product (PUT)
+<img width="1277" height="723" alt="Image" src="https://github.com/user-attachments/assets/26677ee3-4e0c-4404-a5a7-abbaaa30df05" />
 
-### 4️⃣ Partial Update - Stock Only (PATCH)
+### 4 Partial Update - Stock Only (PATCH)
 <img width="1278" height="720" alt="Image" src="https://github.com/user-attachments/assets/ef0a86ac-7fc3-4dc6-a488-c56e3ceb7a3a" />
 
-### 5️⃣ Delete Product (DELETE)
+### 5 Delete Product (DELETE)
 <img width="1279" height="720" alt="Image" src="https://github.com/user-attachments/assets/c77e2498-3dd5-41a5-9951-e39e6ddc277c" />
